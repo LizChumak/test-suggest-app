@@ -6,7 +6,7 @@
       label="* Пользователь и компания"
       :apiUrl="apiUrl"
       placeholder="Введите логин"
-      :maxSelectedItems="3"
+      :maxSelectedItems="1"
       @change="handleChange"
     />
     </div>

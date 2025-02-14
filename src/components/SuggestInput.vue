@@ -171,7 +171,7 @@ export default Vue.extend({
   
   <style scoped>
   .suggest-input {
-    width: 300px;
+    width: 350px;
   }
   
   .input-container {
@@ -188,6 +188,7 @@ export default Vue.extend({
   
   input {
     flex: 1;
+    width: auto;
     border: none;
     outline: none;
   }
@@ -195,6 +196,7 @@ export default Vue.extend({
   .selected-item {
     display: flex;
     align-items: center;
+    width: auto;
     background: #f0f0f0;
     padding: 4px 8px;
     margin-left: 8px;
