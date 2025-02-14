@@ -188,7 +188,7 @@ export default Vue.extend({
   
   input {
     flex: 1;
-    width: auto;
+    width: 1%;
     border: none;
     outline: none;
   }
